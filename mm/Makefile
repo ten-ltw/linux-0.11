@@ -1,4 +1,4 @@
-CC	=gcc --march=x86-64
+CC	=gcc -march=x86-64
 CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer \
 	-finline-functions -nostdinc -I../include
 AS	=as

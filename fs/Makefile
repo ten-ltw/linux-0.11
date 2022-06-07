@@ -1,6 +1,6 @@
 AR	=ar
 AS	=as
-CC	=gcc --march=x86-64
+CC	=gcc -march=x86-64
 LD	=ld
 CFLAGS	=-Wall -fstrength-reduce -fomit-frame-pointer \
 	 -nostdinc -I../include
