@@ -1,6 +1,6 @@
 AR	=ar
 AS	=as
-CC	=gcc -mcpu=i386
+CC	=gcc --march=i386
 LD	=ld
 CFLAGS	=-Wall -fstrength-reduce -fomit-frame-pointer \
 	 -nostdinc -I../include
